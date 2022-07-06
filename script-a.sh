@@ -7,7 +7,7 @@
 echo
 rm -r /usr/script-a
 wait
-opkg install --force-overwrite  "https://onedrive.live.com/download?cid=CFCA224FBA296C58&resid=CFCA224FBA296C58%21173&authkey=AHy-BGiBoN1xdew"
+opkg install --force-overwrite  "https://github.com/tarekzoka/65/blob/master/enigma2-plugin-script_v1.1_all.ipk?raw=true"
 wait
 sleep 2;
 exit 0
