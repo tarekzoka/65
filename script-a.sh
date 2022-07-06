@@ -5,7 +5,8 @@
 ###########################################
 #!/bin/sh
 echo
-
+opkg remove enigma2-plugin-extensions-script
+wait
 opkg install --force-overwrite  "https://github.com/tarekzoka/65/blob/master/enigma2-plugin-script_v1.1_all.ipk?raw=true"
 wait
 sleep 2;
