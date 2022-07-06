@@ -7,6 +7,7 @@
 #
 echo
 rm -r /usr/script-a
+wait
 opkg install --force-overwrite  "https://onedrive.live.com/download?cid=CFCA224FBA296C58&resid=CFCA224FBA296C58%21173&authkey=AHy-BGiBoN1xdew"
 wait
 sleep 2;
